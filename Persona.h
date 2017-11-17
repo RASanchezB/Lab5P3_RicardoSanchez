@@ -27,6 +27,6 @@ class Persona{
 		void setEdad(int);
 		void setSexo(string);
 		//destructor
-		~Persona();
+		virtual ~Persona();
 };
 #endif

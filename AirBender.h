@@ -8,19 +8,19 @@ using namespace std;
 
 class AirBender:public Persona{
 	private:
-		int CantidadPelo;
+		string CantidadPelo;
 		string ColorFlecha;
 	public:
 		//constructores
 		AirBender();
-		AirBender(int, string);
+		AirBender(string,string,int,string,string,string);
 		//getter
-		int getCantidadPelo();
+		string getCantidadPelo();
 		string getColorFlecha();
 		//setter
-		void setCantidadPelo();
-		void setColorFlecha();
+		void setCantidadPelo(string);
+		void setColorFlecha(string);
 		//destructor
 		~AirBender();
 };
-#endif;
+#endif
