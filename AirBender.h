@@ -3,6 +3,7 @@
 
 #include <string>
 #include "Persona.h"
+#include "Poder.h"
 
 using namespace std;
 
@@ -10,16 +11,19 @@ class AirBender:public Persona{
 	private:
 		string CantidadPelo;
 		string ColorFlecha;
+		Poder* poder;
 	public:
 		//constructores
 		AirBender();
-		AirBender(string,string,int,string,string,string);
+		AirBender(string,string,int,string,string,string,Poder*);
 		//getter
 		string getCantidadPelo();
 		string getColorFlecha();
+		Poder* getPoder();
 		//setter
 		void setCantidadPelo(string);
 		void setColorFlecha(string);
+		void setPoder(Poder*);
 		//destructor
 		~AirBender();
 };

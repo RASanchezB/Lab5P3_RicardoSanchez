@@ -19,6 +19,7 @@ using namespace std;
 
 int main(){
 	cout<<"Bienvenido al lab 5"<<endl;
+	vector <Persona> listaP;
 	int opcion = 0;
 	while(opcion != 5){
 		cout<<"-----Menu----"<<endl
@@ -54,7 +55,16 @@ int main(){
 				int opcion2;
 				cin>>opcion2;
 				switch(opcion2){
-					case 1:{}
+					case 1:{
+						cout<<"Es un AirBender"<<endl;
+						cout<<"La cantidad de pelo"<<endl;
+						string CantidadPelo;
+						cin>>CantidadPelo;
+						cout<<"Ingrese el color de la flecha"<<endl;
+						string ColorFlecha;
+						cin>>ColorFlecha;
+
+					}
 					break;
 					case 2:{}
 					break;
