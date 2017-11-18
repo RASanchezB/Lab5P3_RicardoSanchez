@@ -63,6 +63,13 @@ int main(){
 						cout<<"Ingrese el color de la flecha"<<endl;
 						string ColorFlecha;
 						cin>>ColorFlecha;
+						cout<<"Elija el poder"<<endl
+						<<"1)Ofensivo"<<endl
+						<<"2)Defensivo"<<endl
+						<<"3)Curativo"<<endl
+						<<"4)Invocacion"<<endl
+						<<"Elija la opcion que desea"<<endl;
+
 
 					}
 					break;
